@@ -229,13 +229,99 @@
 
                           //chapter6
                 
-// var a=10;
+/-------------------------Q1------------------------------
+// var a = 10;
+// document.write("<br><br>The Result:");
+// document.write("<br>The value of a is: " + a);
+// document.write("<br>-------------------------");
 
-// document.write("result:"+"</br>"+"the value of a is"+ a +"</br>")
+// a++;
+// document.write("<br><br>The value of ++a is: " + a);
+// document.write("<br>Now the value of a is: " + a);
+// document.write("<br><br>The value of ++a is: " + a);
+// a++;
+// document.write("<br>Now the value of a is: " + a);
 
-// var a=10;
-// ++a
-// document.write("result:"+"</br>"+"the value of a is"+ a +"</br>")
+// a--;
+// document.write("<br><br>The value of --a is: " + a);
+// document.write("<br>Now the value of a is: " + a);
+// document.write("<br><br>The value of a-- is: " + a);
+// a--;
+// document.write("<br>Now the value of a is: " + a);
 
+//-------------------------Q2------------------------------
+// var a = 2;
+// var b = 1;
+
+// var result = --a - --b + ++b + b--;
+
+// document.write("<br>a = ", a);
+// document.write("<br>b = ", b);
+// document.write("<br>result = ", result);
+// Step-by-step explanation of the expression:
+// 1. --a: it is decrement, so a becomes 1.
+// 2. ---b: This is a typo and likely meant to be another operator. Assuming it was meant to be -, so -1 is used
+// 3. +++b: it is increment in b three times, so b becomes 5 (1 + 1 + 1 + 1)
+// 4. + b--: Add the current value of b (5) and then post-decrement b, so result becomes 8 and b becomes 4
+
+
+//-------------------------Q3------------------------------
+// var Name = prompt("Please enter your name:");
+// document.write("Hello, " + Name + " welcome to my website")
+
+//-------------------------Q4------------------------------
+
+
+//-------------------------Q5------------------------------
+// var subject1 = prompt("Enter the name of 1st subject:");
+// var subject2 = prompt("Enter the name of 2nd subject:");
+// var subject3 = prompt("Enter the name of 3rd subject:");
+
+// var totaleng= (100);
+// var totalurd=(100);
+// var totalmath=(100);
+
+// var obtSub1 = +prompt("Enter your obtained marks of 1st subject");
+// var obtSub2 = +prompt("Enter your obtained marks of 2nd subject");
+// var obtSub3 = +prompt("Enter your obtained marks of 3rd subject");
+// var per=((obtSub1+obtSub2+obtSub3)*(100)/ (totaleng+totalmath+totalurd));
+
+// document.write("<table >");
+// document.write("<tr>");
+// document.write("<td>"+"<b>"+"Subjects"+"</b>"+ "</td>");
+// document.write("<td>"+"<b>"+"Total Marks"+"</b>"+ "</td>");
+// document.write("<td>"+"<b>"+"Obtained Marks"+"</b>"+ "</td>");
+// document.write("<td>"+"<b>"+"Percentage"+"</b>"+ "</td>");
+// document.write("</tr>");
+
+// document.write("</table");
+
+// document.write("<table>");
+// document.write("<tr>");
+// document.write("<td>" +subject1  +"</td>");
+// document.write("<td>" +totaleng  +"</td>");
+// document.write("<td>" +obtSub1  +"</td>");
+// document.write("<td>" +obtSub1*100/totaleng+"%"  +"</td>");
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>" +subject2  +"</td>");
+// document.write("<td>" +totalurd  +"</td>");
+// document.write("<td>" +obtSub2  +"</td>");
+// document.write("<td>" +obtSub2*100/totalurd+"%"  +"</td>");
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>" +subject3  +"</td>");
+// document.write("<td>" +totalmath  +"</td>");
+// document.write("<td>" +obtSub3  +"</td>");
+// document.write("<td>" +obtSub3*100/totalmath+"%"  +"</td>");
+// document.write("</tr>");
+
+// document.write("<tr>");
+// document.write("<td>"+"</td>");
+// document.write("<td>"+(totaleng+totalmath+totalurd) +"</td>");
+// document.write("<td>"+(obtSub1+obtSub2+obtSub3) +"</td>");
+// document.write("<td>"+per+ "%"+"</td>");
 
 
